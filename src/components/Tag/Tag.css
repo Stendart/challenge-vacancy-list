@@ -1,0 +1,23 @@
+.tag {
+  color: rgb(42, 135, 104);
+  background-color: rgb(115, 227, 190);
+  border-radius: 4px;
+
+  display: flex;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.tag__text {
+  padding: 7px 5px;
+}
+
+.tag__btn {
+  background-color: rgb(0, 155, 155);
+  border: none;
+  width: 35px;
+}
+
+.tag__btn:hover {
+  background-color: rgb(0, 69, 69);
+}

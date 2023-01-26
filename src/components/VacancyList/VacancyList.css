@@ -1,0 +1,8 @@
+.vacancy-list {
+  padding: 20px;
+}
+
+.vacancy-list__item {
+  width: 80%;
+  margin: 0 auto 20px;
+}

@@ -1,0 +1,1 @@
+export const ADD_VACANCY = 'ADD_VACANCY';

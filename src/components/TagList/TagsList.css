@@ -1,0 +1,23 @@
+.tags-list {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+}
+
+.tags-list__wrapper {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 7px rgb(151, 151, 151);
+
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+}
+
+.tags-list__tag {
+  margin-left: 10px;
+}

@@ -1,0 +1,85 @@
+.vacancy-card {
+  width: 100%;
+  padding: 20px 25px;
+
+  display: flex;
+  border-left: 4px solid green;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 3px 3px 7px rgb(151, 151, 151);
+}
+
+.vacancy-card__image {
+  margin-right: 20px;
+}
+
+
+.vacancy-card__content {
+  display: flex;
+}
+
+.vacancy-card__job-title {
+  margin-top: 10px;
+}
+
+.vacancy-card__vacancy-info-wrapper {
+  display: flex;
+  margin: 10px -10px 0;
+}
+
+.vacancy-card__vacancy-info {
+  color: gray;
+  margin: 0 10px;
+}
+
+.vacancy-card__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.vacancy-card__company-name-wrapper {
+  display: flex;
+}
+
+.vacancy-card__company-name {
+  color: rgb(87, 167, 140);
+  font-weight: 700;
+}
+
+.vacancy-card__mark {
+  color: #fff;
+  border-radius: 12px;
+  padding: 3px 7px;
+  font-weight: 500;
+}
+
+.vacancy-card__mark--new {
+  background-color: rgb(87, 167, 140);
+}
+
+.vacancy-card__mark--fetaured {
+  background-color: rgb(0, 0, 0);
+}
+
+.vacancy-card__job-title {
+  font-weight: 600;
+}
+
+.vacancy-card__mark-wrapper {
+  display: flex;
+  margin-left: 15px;
+}
+
+.vacancy-card__mark:not(:last-child) {
+  margin-right:10px;
+}
+
+.vacancy-card__tags {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.vacancy-card__tag {
+  margin-right: 10px;
+}
